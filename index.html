@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="container__content">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+        <ul class="list">
+          <li class="list__item">Product discovery and building what matters</li>
+          <li class="list__item">Measuring to ensure updates are a success</li>
+          <li class="list__item">And much more!</li>
+        </ul>
+
+        <form method="post" novalidate class="form" data-js-target="signupForm">
+          <div class="input">
+            <div class="input__header">
+              <label for="email" class="input__label">Email address</label>
+            </div>
+            <input type="email" name="email" placeholder="email@company.com" autocomplete="off" id="email" class="input__field">
+          </div>
+
+          <button type="submit" class="button">Subscribe to monthly newsletter</button>
+        </form>
+      </section>
+
+      <picture aria-hidden="true" class="illustration">
+        <source media="(max-width: 799px)" srcset="/illustration-sign-up-mobile.svg" />
+        <source media="(min-width: 800px)" srcset="/illustration-sign-up-desktop.svg" />
+        <img src="/illustration-sign-up-desktop.svg" alt="illustration" />
+      </picture>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

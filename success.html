@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main class="container container--narrow">
+      <div class="container__content container__content--stretch">
+        <picture>
+          <img src="/icon-success.svg" alt="">
+        </picture>
+
+        <div class="success-text-content">
+          <h1>Thanks for subscribing!</h1>
+          <p>A confirmation email has been sent to <b data-js-target="emailConfirmation"></b>. Please open it and click the button inside to confirm your subscription.</p>
+        </div>
+
+        <div class="dismiss-button-container">
+          <a href="/" class="button">Dismiss message</a>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
