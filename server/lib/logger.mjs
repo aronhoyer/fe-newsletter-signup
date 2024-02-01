@@ -9,8 +9,8 @@ const LogLevels = Object.freeze({
 
 export class Logger {
     /** @type {LogLevel} */
-    static #minLevel = process.env.NODE_ENV === "production"
-        ? LogLevels.WARN
+    static #minLevel = process.env.LOG_LEVEL
+        ? LogLevels[process.env.LOG_LEVEL]
         : LogLevels.DEBUG
 
     /**
