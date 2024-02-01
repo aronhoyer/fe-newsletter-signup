@@ -2,7 +2,7 @@
 
 [See the challenge here](https://www.frontendmentor.io/challenges/newsletter-signup-form-with-success-message-3FC1AZbNrv)
 
-[See hosted solution]()
+[See hosted solution](http://172.105.86.243)
 
 ## Technologies
 
